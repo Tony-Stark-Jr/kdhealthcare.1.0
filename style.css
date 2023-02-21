@@ -196,7 +196,6 @@ header {
   width: 90%;
   margin: 0 auto;
   height: 10vh;
-  padding: var(--mb-1-5) 0;
 }
 
 .logo {
@@ -749,7 +748,7 @@ h1 {
 }
 
 @media screen and (max-width: 960px) {
- /* Navbar section */
+  /* Navbar section */
   .navbar-container {
     width: 90%;
     margin: 0 auto;
@@ -769,7 +768,7 @@ h1 {
     top: 10vh;
     width: 60%;
     right: 0;
-    height: calc(100% - 10vh);
+    height: 83vh;
     border-radius: var(--mb-0-5);
     z-index: 9999;
   }
