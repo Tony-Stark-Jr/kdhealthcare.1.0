@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- Link of Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header" id="home">
+        <nav class="navbar">
+            <div class="navbar-container">
+                <p class="logo">Dk Hospital</p>
+
+                <div class="nav-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#department" class="nav-link">Departments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#service" class="nav-link">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#doctor" class="nav-link">Doctors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#testimonial" class="nav-link">Testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="main">
+            <h1>We are Providing <br>
+                Best and Affordable Healthcare</h1>
+            <h3>Our skilled doctors have tremendoucs
+                <br> experience with wide range of disease
+                <br> to serve that needs to you
+            </h3>
+            <a href="#about">
+                <button class="home-btn">
+                </button>
+            </a>
+        </main>
+
+    </header>
+
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide-1"></div>
+            <div class="swiper-slide slide-2"></div>
+            <div class="swiper-slide slide-3"></div>
+        </div>
+    </div>
+
+
+    <!-- About section -->
+    <div id="about">
+        <div class="about-section container">
+            <div class="about-subtitle">
+                <p class="section-title">Welcome to Dk Hospital</p>
+                <h2>We Preserve, Enhance and <br>
+                    Protect your Health</h2>
+                <p>We know how much your health is important for you and <br>
+                    your family. So, our goal is to make healthcare system <br>
+                    better and more affordable for you</p>
+            </div>
+            <div class="about-md">
+                <img class="md-img" src="./assets/md-2.png" alt="md-image">
+                <div class="md-intro intro">
+                    <h6>Brian Wright</h6>
+                    <p>Founder & MD</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Departments section -->
+    <div class="full-color" id="department">
+        <div class="container">
+            <div class="department-section">
+                <div class="department-subtitle">
+                    <p class="section-title">Our Departments</p>
+                    <h3>We have wide range of departments to provide you better health</h3>
+                </div>
+                <div class="department-box-container">
+                    <div class="department-box-container-1">
+
+                        <div class="department-box">
+                            <img class="department-img" src="./assets/eye.png" alt="eye-img">
+                            <h6>Eye Care Solution</h6>
+                        </div>
+                        <div class="department-box">
+                            <img class="department-img" src="./assets/blood-test.png" alt="blood-test-img">
+                            <h6>Blood Test</h6>
+                        </div>
+                        <div class="department-box">
+                            <img class="department-img" src="./assets/heart.png" alt="heart-img">
+                            <h6>Heart Checkup</h6>
+                        </div>
+                        <div class="department-box">
+                            <img class="department-img" src="./assets/liver.png" alt="liver-img">
+                            <h6>Liver Solution</h6>
+                        </div>
+                    </div>
+                    <div class="department-box-container-2">
+                        <div class="department-box">
+                            <img class="department-img" src="./assets/tooth.png" alt="dental-img">
+                            <h6> Dental Care</h6>
+                        </div>
+                        <div class="department-box">
+                            <img class="department-img" src="./assets/coronavirus.png" alt="coronavirus-img">
+                            <h6>Covid-19 Checkup</h6>
+                        </div>
+                        <div class="department-box">
+                            <img class="department-img" src="./assets/lungs.png" alt="lungs-img">
+                            <h6>Lungs Solution</h6>
+                        </div>
+                        <div class="department-box">
+                            <img class="department-img" src="./assets/kidney.png" alt="kidney-img">
+                            <h6>Kidney Solution</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Service section -->
+    <div class="service-container" id="service">
+        <div class="section-subtitle">
+            <p class="section-title">Our Services</p>
+            <h3>We have best doctors, lab & phramacy for you and your family</h3>
+        </div>
+        <div class="service-box-container">
+            <div class="service-box">
+                <img src="./assets/pharmacist.png" alt="pharmacist-img" class="service-img">
+                <h6>In house pharmancy</h6>
+                <p>A hospital is a health care institution providing patient treatment with specialized medical and
+                    nursing staff and medical equipment</p>
+                <button class="btn">Read more</button>
+            </div>
+
+            <div class="service-box">
+                <img src="./assets/ambulance.png" alt="ambulance-img" class="service-img">
+                <h6>Emergency help</h6>
+                <p>A hospital is a health care institution providing patient treatment with specialized medical and
+                    nursing staff and medical equipment</p>
+                <button class="btn">Read more</button>
+            </div>
+
+            <div class="service-box">
+                <img src="./assets/doctor.png" alt="doctor-img" class="service-img">
+                <h6>Qualifed doctor</h6>
+                <p>A hospital is a health care institution providing patient treatment with specialized medical and
+                    nursing staff and medical equipment</p>
+                <button class="btn">Read more</button>
+            </div>
+
+            <div class="service-box">
+                <img src="./assets/surgery-room.png" alt="surgery-room-img" class="service-img">
+                <h6>Modern equipment</h6>
+                <p>A hospital is a health care institution providing patient treatment with specialized medical and
+                    nursing staff and medical equipment</p>
+                <button class="btn">Read more</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Doctor section -->
+    <div class="full-color">
+        <div class="container">
+            <div class="doctor-section" id="doctor">
+                <div class="section-subtitle">
+                    <p class="section-title">Our Doctors</p>
+                    <h3>Meet our great Healthcare professsionals</h3>
+                </div>
+                <div class="doctor-box-container">
+                    <div class="swiper myDoctorSwiper">
+                        <div class="swiper-wrapper doctor-slide">
+
+                            <div class="swiper-slide">
+                                <img src="./assets/doctor-1.png" alt="doctor-img">
+                                <h4>Dr. Jhatka</h4>
+                                <p>A doctor is someone who is experienced and certified to practice medicine to help
+                                    maintain or restore physical and mental health.</p>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="./assets/doctor-2.png" alt="doctor-img">
+                                <h4>Dr. Barie</h4>
+                                <p>A doctor is someone who is experienced and certified to practice medicine to help
+                                    maintain or restore physical and mental health.</p>
+                            </div>
+
+
+
+                            <div class="swiper-slide">
+                                <img src="./assets/doctor-5.png" alt="doctor-img">
+                                <h4>Dr. Thomas</h4>
+                                <p>A doctor is someone who is experienced and certified to practice medicine to help
+                                    maintain or restore physical and mental health.</p>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="./assets/doctor-7.png" alt="doctor-img">
+                                <h4>Dr. Divya</h4>
+                                <p>A doctor is someone who is experienced and certified to practice medicine to help
+                                    maintain or restore physical and mental health.</p>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="./assets/doctor-4.png" alt="doctor-img">
+                                <h4>Dr. Julie</h4>
+                                <p>A doctor is someone who is experienced and certified to practice medicine to help
+                                    maintain or restore physical and mental health.</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/doctor-6.png" alt="doctor-img">
+                                <h4>Dr. Barie</h4>
+                                <p>A doctor is someone who is experienced and certified to practice medicine to help
+                                    maintain or restore physical and mental health.</p>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="./assets/doctor-3.png" alt="doctor-img">
+                                <h4>Dr. Divya</h4>
+                                <p>A doctor is someone who is experienced and certified to practice medicine to help
+                                    maintain or restore physical and mental health.</p>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="./assets/doctor-4.png" alt="doctor-img">
+                                <h4>Dr. Julie</h4>
+                                <p>A doctor is someone who is experienced and certified to practice medicine to help
+                                    maintain or restore physical and mental health.</p>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="./assets/doctor-5.png" alt="doctor-img">
+                                <h4>Dr. Thomas</h4>
+                                <p>A doctor is someone who is experienced and certified to practice medicine to help
+                                    maintain or restore physical and mental health.</p>
+                            </div>
+
+
+
+                            <div class="swiper-slide">
+                                <img src="./assets/doctor-8.png" alt="doctor-img">
+                                <h4>Dr. Divya</h4>
+                                <p>A doctor is someone who is experienced and certified to practice medicine to help
+                                    maintain or restore physical and mental health.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonial section -->
+    <div id="testimonial">
+        <div class="testimonial-section container" id="testimonial">
+            <div class="section-subtitle">
+                <p class="section-title">Testimonial</p>
+                <h3>What our patients say about us</h3>
+            </div>
+            <div class="testimonial-box-container">
+                <div class="swiper myTestimonialSwiper">
+                    <div class="swiper-wrapper testimonial-slide">
+                        <div class="swiper-slide">
+                            <img src="./assets/testimonial-1.png" alt="testimonial-1-img">
+                            <div class="intro">
+                                <h6>Steve Cook</h6>
+                                <p>CEO of Orange</p>
+                            </div>
+                            <p>All the senior citizens of my house have been treated at Zen hospital for different
+                                illnesses
+                                since the past few years. The experience has been outstanding. The staff is very polite,
+                                they
+                                have the best team of doctors, the nurses, maushis and ward boy uncles</p>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="./assets/testimonial-2.png" alt="testimonial-1-img">
+                            <div class="intro">
+                                <h6>Steve Cook</h6>
+                                <p>CEO of Orange</p>
+                            </div>
+                            <p>All the senior citizens of my house have been treated at Zen hospital for different
+                                illnesses
+                                since the past few years. The experience has been outstanding. The staff is very polite,
+                                they
+                                have the best team of doctors, the nurses, maushis and ward boy uncles</p>
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <img src="./assets/testimonial-3.png" alt="testimonial-1-img">
+                            <div class="intro">
+                                <h6>Steve Cook</h6>
+                                <p>CEO of Orange</p>
+                            </div>
+                            <p>All the senior citizens of my house have been treated at Zen hospital for different
+                                illnesses
+                                since the past few years. The experience has been outstanding. The staff is very polite,
+                                they
+                                have the best team of doctors, the nurses, maushis and ward boy uncles</p>
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination testimonial-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recognize section -->
+    <div class="full-color">
+        <div class="container">
+            <div class="recognize-section" id="recognize">
+                <div class="recognize-box-container">
+                    <div class="recognize-box">
+                        <img src="./assets/doctor.png" alt="doctor-img">
+                        <div class="recognize-box-description">
+                            <h4>400+</h4>
+                            <h6>Expert doctor</h6>
+                        </div>
+                    </div>
+                    <div class="recognize-box">
+                        <img src="./assets/police-station.png" alt="department-img">
+                        <div class="recognize-box-description">
+                            <h4>8+</h4>
+                            <h6>Departments</h6>
+                        </div>
+                    </div>
+
+                    <div class="recognize-box">
+                        <img src="./assets/health-insurance.png" alt="patient-img">
+                        <div class="recognize-box-description">
+                            <h4>50000+</h4>
+                            <h6>Happy patients</h6>
+                        </div>
+                    </div>
+                    <div class="recognize-box">
+                        <img src="./assets/trophy.png" alt="trophy-img">
+                        <div class="recognize-box-description">
+                            <h4>650+</h4>
+                            <h6>Awards winner</h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Contact section -->
+    <div class="container">
+        <div class="contact-section" id="contact">
+            <div class="section-subtitle">
+                <p class="section-title">Contact us</p>
+                <h3>Connect with us</h3>
+            </div>
+            <div class="contact-section-container">
+                <div class="contact-section-container-1">
+                    <h4>Our Location</h4>
+                    <div class="contact-box-container">
+                        <div class="contact-box">
+                            <img src="/assets/Vector-1.png" alt="" class="form-icon">
+                        </div>
+                        <p>Biratnagar, Nepal</p>
+                    </div>
+
+                    <div class="contact-box-container">
+                        <div class="contact-box">
+                            <img src="/assets/Vector-2.png" alt="" class="form-icon">
+                        </div>
+                        <p>+977 983818932</p>
+                        <p>+977 983518639</p>
+                    </div>
+
+                    <div class="contact-box-container">
+                        <div class="contact-box">
+                            <img src="/assets/Vector-3.png" alt="" class="form-icon">
+                        </div>
+                        <p>info.Dkhealthcare@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-section-container-2">
+                    <h4>Get in touch</h4>
+                    <form class="form">
+                        <input type="text" name="full-name" id="full-name" placeholder="Full Name" required>
+                        <input type="email" name="email" id="email" placeholder="Email">
+                        <input type="text" name="subject" id="subject" placeholder="Subject">
+                        <textarea name="message" id="message" cols="30" rows="6" placeholder="Message"></textarea>
+                        <button class="btn form-btn">Send message <img src="assets/Vector.png" alt="icons8-telegram"
+                                class="form-icon"></button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-section">
+        <div class="container footer-section-container">
+            <div class="upper-footer">
+                <div class="footer-box">
+                    <h4>About Dk Healthcare</h4>
+                    <p>A hospital is a health care providing patient treatment with specialized medical and nursing
+                        staff and medical equipment.</p>
+                    <div class="social-links">
+                        <h4>Quick Connect</h4>
+                        <div class="social-icons-container">
+                            <img src="assets/instagram.png" alt="" class="social-icon">
+                            <img src="assets/facebook.png" alt="" class="social-icon">
+                            <img src="assets/youtube.png" alt="" class="social-icon">
+                            <img src="assets/twitter.png" alt="" class="social-icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-menu">
+                        <li class="footer-item"><a href="#home" class="footer-links">Get started</a></li>
+                        <li class="footer-item"><a href="#doctor" class="footer-links">Our Doctors</a></li>
+                        <li class="footer-item"><a href="#about" class="footer-links">About Us</a></li>
+                        <li class="footer-item"><a href="#contact" class="footer-links">Needs Helps</a></li>
+                        <li class="footer-item"><a href="#contact" class="footer-links">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-box">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-menu">
+                        <li class="footer-item"><a href="#" class="footer-links">Get started</a></li>
+                        <li class="footer-item"><a href="#" class="footer-links">Our Doctors</a></li>
+                        <li class="footer-item"><a href="#" class="footer-links">About Us</a></li>
+                        <li class="footer-item"><a href="#" class="footer-links">Needs Helps</a></li>
+                        <li class="footer-item"><a href="#" class="footer-links">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-box">
+                    <p>Monday - Friday : 8:00 AM - 6:00 PM</p>
+                    <p>Saturday : 8:00 AM - 12:00 PM</p>
+                    <p>Sunday : Closed Day</p>
+                    <p>But we provide emergency 24/7</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="lower-footer-section">
+        <div class="container ">
+            <div class="lower-footer">
+                <h6 class="copy-right"><img src="assets/copyright-solid 1.png" alt=""> by Dk Healthcare</h6>
+                <h6>Design & Developed by Santosh Kumar Marar</h6>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
