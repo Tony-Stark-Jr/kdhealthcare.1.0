@@ -195,7 +195,7 @@ header {
   align-items: center;
   width: 90%;
   margin: 0 auto;
-  height: 10%;
+  height: 10vh;
   padding: var(--mb-1-5) 0;
 }
 
@@ -749,6 +749,7 @@ h1 {
 }
 
 @media screen and (max-width: 960px) {
+ /* Navbar section */
   .navbar-container {
     width: 90%;
     margin: 0 auto;
@@ -765,10 +766,10 @@ h1 {
     align-items: center;
     justify-content: space-around;
     position: absolute;
-    top: 10%;
+    top: 10vh;
     width: 60%;
     right: 0;
-    height: calc(100% - 10%);
+    height: calc(100% - 10vh);
     border-radius: var(--mb-0-5);
     z-index: 9999;
   }
