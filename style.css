@@ -767,7 +767,7 @@ h1 {
     top: 10vh;
     width: 60%;
     right: 0;
-    height: 90vh;
+    height: 80vh;
     border-radius: var(--mb-0-5);
     z-index: 9999;
   }
