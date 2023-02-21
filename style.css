@@ -195,7 +195,8 @@ header {
   align-items: center;
   width: 90%;
   margin: 0 auto;
-  height: 10vh;
+  height: 10%;
+  padding: var(--mb-1-5) 0;
 }
 
 .logo {
@@ -764,10 +765,10 @@ h1 {
     align-items: center;
     justify-content: space-around;
     position: absolute;
-    top: 10vh;
+    top: 10%;
     width: 60%;
     right: 0;
-    height: calc(100vh - 10vh);
+    height: calc(100% - 10%);
     border-radius: var(--mb-0-5);
     z-index: 9999;
   }
