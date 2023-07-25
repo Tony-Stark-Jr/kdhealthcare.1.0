@@ -1,4 +1,4 @@
-  <h2>KD. Healthcaare</h2>
+  <h1>KD. Healthcare</h2>
 <p>
  <a href=""> <img src="https://github.com/Tony-Stark-Jr/kdhealthcare.1.0/assets/74758608/1a69b87c-224b-4c5d-ae57-902660113e10" width="250"> </a>
 </p>
